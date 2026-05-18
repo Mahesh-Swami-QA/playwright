@@ -102,7 +102,7 @@ test('Register with Invalid Mobile Number', async ({ page }) => {
     .fill('james4@gmail.com');
 
   await page.locator('input[placeholder="9876543210"]')
-    .fill('98766');
+    .fill('9676866');
 
   await page.locator('#input-date-account-register')
     .fill('2010-05-04');
